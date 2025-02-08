@@ -1,0 +1,16 @@
+// =========================================================================================
+//     File Name: charts-apexcharts.css
+//     Description: Apex charts css.
+//     --------------------------------------------------------------------------------------
+//     Item Name: Ai2Gi Admin - Clean Bootstrap 4 Dashboard HTML Template
+//     Author: Ai2Gi
+//     Author URL: http://www.themeforest.net/user/Ai2Gi
+// ==========================================================================================
+
+// Override apex charts default text color of tooltip (on hover) & dropdown
+.apexcharts-tooltip, .apexcharts-xaxistooltip, .apexcharts-menu-item, .apexcharts-yaxistooltip  {
+  color: #000 !important;
+  &.light{
+    color: #000 !important;
+  }
+}

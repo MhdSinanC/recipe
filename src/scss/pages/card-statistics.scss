@@ -1,0 +1,19 @@
+// ================================================================================================
+//     File Name: card-statistics.scss
+//     Description: card-statistics pages custom scss
+//     ----------------------------------------------------------------------------------------------
+//     Item Name: Ai2Gi Admin - Clean Bootstrap 4 Dashboard HTML Template
+//     Author: Ai2Gi
+//     Author URL: http://www.themeforest.net/user/Ai2Gi
+// ================================================================================================
+
+/*========== card-statistics Background Image =========*/
+
+// media query in small screen
+@media (max-width: 992px) {
+.card{
+  .card-gradient-md-border{
+    border: 0 !important;
+  }
+}
+}

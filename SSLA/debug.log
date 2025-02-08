@@ -1,0 +1,26 @@
+Array
+(
+    [meal_types] => 3
+    [ingredients] => Array
+        (
+            [0] => 6
+        )
+
+    [cooking_times] => 5
+    [equipments] => Array
+        (
+            [0] => 7
+            [1] => 6
+        )
+
+)
+Meal Type ID: 3
+Cooking Time ID: 5
+Ingredients: 6
+Equipments: 7,6
+SQL Query: SELECT * FROM meals 
+            WHERE meal_type_id = 3 
+            AND cooking_time_id = 5
+            AND (FIND_IN_SET('6', ingredient_ids))
+            AND (FIND_IN_SET('7', equipment_ids) OR FIND_IN_SET('6', equipment_ids))
+            LIMIT 1
